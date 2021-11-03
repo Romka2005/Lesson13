@@ -48,7 +48,7 @@ fieldset{
     border: none;
 }
 legend{
-    margin-left: 30px;
+    text-align: center;
     font-size: 25px;
     background: rgb(25, 0, 53);
     border-radius: 10px;
