@@ -6,7 +6,7 @@
 }
 .forma{
     width: 100%;
-    height: 700px;
+    height: 1500px;
     background: url(./img/space.jpg)no-repeat;
     -webkit-background-size:cover;
 	background-size:cover;
@@ -27,6 +27,7 @@ form{
     background: rgb(42, 0, 90);
     border-radius: 20px;
     border: none;
+    flex-wrap: wrap;
 }
 .info{
     width: 350px;
@@ -106,4 +107,28 @@ button{
 button:hover{
     background: black;
     color: white;
+}
+@media (max-width:900px){
+    form{
+        width: 600px;
+        height: 900px;
+}
+}
+@media (max-width:600px){
+    form{
+        width: 300px;
+        height: 900px;
+}
+    .info{
+        width: 200px;
+    }
+    .user_text i{
+        font-size: 50px;
+    }
+    .user_text{
+        margin-top: 30px;
+    }
+    .user_self i{
+        font-size: 80px;
+    }
 }
